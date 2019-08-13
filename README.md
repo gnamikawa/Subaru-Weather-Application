@@ -6,7 +6,8 @@ The Subaru Weather Application (SWA) was developed in order to replace the previ
 
 The system was coded using multiple programming and scripting languages on a 64-bit Windows installation and installed on a Red-Hat 7.6 Server through SSH. This project uses JavaScript (JS), Cascading Style Sheets (CSS), Hypertext Markup Language (HTML), Python, and Bash. The project, split in parts, uses the technologies in the following fashion:  
 
-List of technologies and libraries per section
+List of technologies and libraries per section  
+
 | Name | Purpose | Technologies | Libraries |
 |-|-|-|-|
 | `Website (SWA)` | Front-end Website. | JS, JSX, HTML, CSS, React, NPM | D3, and Semantic-UI |
