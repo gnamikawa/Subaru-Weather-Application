@@ -1,0 +1,34 @@
+[
+    {
+        "src": "./images/cw66.gif",
+        "alt": "Northwest Security Camera",
+        "href": "./images/cw66.gif",
+        "header": "Northwest Security Camera",
+        "mouseover": "Northwest Security Camera",
+        "description": "A security camera view for the northwest direction."
+    },
+    {
+        "src": "./images/cw68.gif",
+        "alt": "Northeast Security Camera",
+        "href": "./images/cw68.gif",
+        "header": "Northeast Security Camera",
+        "mouseover": "Northeast Security Camera",
+        "description": "A security camera view for the northeast direction."
+    },
+    {
+        "src": "./images/cw70.gif",
+        "alt": "Southeast Security Camera",
+        "href": "./images/cw70.gif",
+        "header": "Southeast Security Camera",
+        "mouseover": "Southeast Security Camera",
+        "description": "A security camera view for the southeast direction."
+    },
+    {
+        "src": "./images/cw72.gif",
+        "alt": "Southwest Security Camera",
+        "href": "./images/cw72.gif",
+        "header": "Southwest Security Camera",
+        "mouseover": "Southwest Security Camera",
+        "description": "A security camera view for the southwest direction."
+    }
+]

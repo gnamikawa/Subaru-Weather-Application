@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/~genzo/Weather/static/css/main.2cce8147.chunk.css",
+    "main.js": "/~genzo/Weather/static/js/main.8c60760d.chunk.js",
+    "main.js.map": "/~genzo/Weather/static/js/main.8c60760d.chunk.js.map",
+    "runtime~main.js": "/~genzo/Weather/static/js/runtime~main.3d771df9.js",
+    "runtime~main.js.map": "/~genzo/Weather/static/js/runtime~main.3d771df9.js.map",
+    "static/css/2.1abfc648.chunk.css": "/~genzo/Weather/static/css/2.1abfc648.chunk.css",
+    "static/js/2.3f4362f9.chunk.js": "/~genzo/Weather/static/js/2.3f4362f9.chunk.js",
+    "static/js/2.3f4362f9.chunk.js.map": "/~genzo/Weather/static/js/2.3f4362f9.chunk.js.map",
+    "index.html": "/~genzo/Weather/index.html",
+    "precache-manifest.c8e2632dbbdb9421e0832c10641b85cb.js": "/~genzo/Weather/precache-manifest.c8e2632dbbdb9421e0832c10641b85cb.js",
+    "service-worker.js": "/~genzo/Weather/service-worker.js",
+    "static/css/2.1abfc648.chunk.css.map": "/~genzo/Weather/static/css/2.1abfc648.chunk.css.map",
+    "static/css/main.2cce8147.chunk.css.map": "/~genzo/Weather/static/css/main.2cce8147.chunk.css.map",
+    "static/media/semantic.min.css": "/~genzo/Weather/static/media/outline-icons.ef60a4f6.woff"
+  }
+}

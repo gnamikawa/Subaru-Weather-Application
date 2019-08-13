@@ -1,0 +1,18 @@
+[
+    {
+        "src": "./images/front.jpg",
+        "alt": "Telescope Front View",
+        "href": "./images/front.jpg",
+        "header": "Telescope Front View",
+        "mouseover": "Telescope Front View",
+        "description": "View from the Front-facing camera within the telescope building."
+    },
+    {
+        "src": "./images/rear.jpg",
+        "alt": "Telescope Rear View",
+        "href": "./images/rear.jpg",
+        "header": "Telescope Rear View",
+        "mouseover": "Telescope Rear View",
+        "description": "View from the Rear-facing camera within the telescope building."
+    }
+]

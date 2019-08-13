@@ -1,0 +1,26 @@
+[
+    {
+        "src": "./images/Temperature.png",
+        "alt": "Temperature plot of the last 24 hours",
+        "href": "./images/Temperature.png",
+        "header": "Temperature plot of the last 24 hours.",
+        "mouseover": "Temperature plot of the last 24 hours.",
+        "description": "A temperature plot of outside conditions on the catwalk of Subaru Telescopes for the last 24 hours."
+    },
+    {
+        "src": "./images/Humidity.png",
+        "alt": "Humidity plot of the last 24 hours",
+        "href": "./images/Humidity.png",
+        "header": "Humidity plot of the last 24 hours.",
+        "mouseover": "Humidity plot of the last 24 hours.",
+        "description": "A humidity plot of outside conditions on the catwalk of Subaru Telescopes for the last 24 hours."
+    },
+    {
+        "src": "./images/Max Windspeed.png",
+        "alt": "Windspeed plot of the last 24 hours",
+        "href": "./images/Max Windspeed.png",
+        "header": "Windspeed plot of the last 24 hours.",
+        "mouseover": "Windspeed plot of the last 24 hours.",
+        "description": "A windspeed plot of outside conditions on the catwalk of Subaru Telescopes for the last 24 hours."
+    }
+]
