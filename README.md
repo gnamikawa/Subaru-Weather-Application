@@ -13,7 +13,7 @@ List of technologies and libraries per section
 | `Website (SWA)` | Front-end Website. | JS, JSX, HTML, CSS, React, NPM | D3, and Semantic-UI |
 | `Figurebot` | Graph generation and data collection. | Miniconda and Python | Numpy, Matplotlib, Chest, G2cam |
 | `Fetch` | Launch scripts and copy scripts. | Bash | None |
-| `Makefile` | Installs dependencies then moves applications to their respective locations. | Make and Bash | None |  
+| `Makefile` | Installs dependencies then moves applications to their respective locations. | Make and Bash | None |
 
 The application was created with the intention that this is a one-time implementation that does not require relocation. Therefore, the locations and paths for obtaining website material and installing the software were hardcoded for both the makefile and fetch scripts respectively.  
 
@@ -21,12 +21,12 @@ However, the Figurebot was designed to be very reconfigurable, and has a setting
 
 Here are some useful documents and links that I have used for development:  
 
-|Name|Description|Link|
-|-|-|-|
-|G2cam|G2cam is a Python module for interfacing instruments to Subaru Telescope.|https://github.com/naojsoft/g2cam/|
-|React|A JavaScript library for building user interfaces.|https://reactjs.org/|
-|Semantic-UI React|A React library for creating quick and stylish user interfaces. |https://react.semantic-ui.com/|
-|Miniconda|A portable environment for python. Can install python-unrelated packages like nodejs to the environment if need-be.|https://docs.conda.io/en/latest/miniconda.html/|
+| Name              | Description                                                                                                         | Link                                            |
+|-------------------|---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+| G2cam             | G2cam is a Python module for interfacing instruments to Subaru Telescope.                                           | https://github.com/naojsoft/g2cam/              |
+| React             | A JavaScript library for building user interfaces.                                                                  | https://reactjs.org/                            |
+| Semantic-UI React | A React library for creating quick and stylish user interfaces.                                                     | https://react.semantic-ui.com/                  |
+| Miniconda         | A portable environment for python. Can install python-unrelated packages like nodejs to the environment if need-be. | https://docs.conda.io/en/latest/miniconda.html/ |
 
 ## 1.2. Installation for Development
 
@@ -40,13 +40,13 @@ There are prerequisites that must be manually installed to the system. This set 
 
 #### Installation Environment
 
-| Item | Description |
-|-|-|
-| Python 3.7.4 | Python interpreter. Used to create and run python applications. |
-| ReactJS | Foundation for modern web-applications. Specialized in creating Single Page Applications. |
-| NPM (NodeJS) |  Package manager for website components. |
-| Git | Used for version tracking and the cloning of a repository for building. |
-| Miniconda | Environment manager for python scripts. Used to quickly swap libraries and Python versions. |
+| Item         | Description                                                                                 |
+|--------------|---------------------------------------------------------------------------------------------|
+| Python 3.7.4 | Python interpreter. Used to create and run python applications.                             |
+| ReactJS      | Foundation for modern web-applications. Specialized in creating Single Page Applications.   |
+| NPM (NodeJS) | Package manager for website components.                                                     |
+| Git          | Used for version tracking and the cloning of a repository for building.                     |
+| Miniconda    | Environment manager for python scripts. Used to quickly swap libraries and Python versions. |
 
 ## 1.3. Setting the environment up
 
@@ -158,14 +158,14 @@ $ mkdir -p "public_html/Weather"
 
 #### Make Commands
 
-|Command|Description|
-|-|-|
-| `make cleanall` | Removes all dependencies and libraries for the website and generated data/output from previous sessions. (runs `dataclean` and `websiteclean`) |
-| `make websiteclean` | Cleans and rids the website of all of its dependencies. |
-|`make dataclean`|Cleans and rids the application of all data and output that the program may have generated from previous sessions.|
-|`make getdep`|Installs all dependencies for the website.|
-|`make build`|Runs the build script for the website. Outputs to `swa/website/build`.|
-|`make or make deploy`|Runs `make getdep` then `make build`. This command will install the website's dependencies, and then it will build the website.|
+| Command               | Description                                                                                                                                    |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| `make cleanall`       | Removes all dependencies and libraries for the website and generated data/output from previous sessions. (runs `dataclean` and `websiteclean`) |
+| `make websiteclean`   | Cleans and rids the website of all of its dependencies.                                                                                        |
+| `make dataclean`      | Cleans and rids the application of all data and output that the program may have generated from previous sessions.                             |
+| `make getdep`         | Installs all dependencies for the website.                                                                                                     |
+| `make build`          | Runs the build script for the website. Outputs to `swa/website/build`.                                                                         |
+| `make or make deploy` | Runs `make getdep` then `make build`. This command will install the website's dependencies, and then it will build the website.                |
 
 Run the following in the base directory of the swa where the `Makefile` resides:
 
@@ -177,10 +177,10 @@ $ make deploy
 
 Next, for each of the following files, replace the username of `Genzo` with the respective username, and make sure to change the `homepage` within the `package.json` file to ensure that the webpage can refer to itself correctly.
 
-|File|Location|
-|-|-|
-|`Copyscript.sh` |`Git/swa/fetch/Master.sh/Webdev.sh/CopyScript.sh`|
-|`package.json` |`Git/swa/website/package.json`|
+| File            | Location                                          |
+|-----------------|---------------------------------------------------|
+| `Copyscript.sh` | `Git/swa/fetch/Master.sh/Webdev.sh/CopyScript.sh` |
+| `package.json`  | `Git/swa/website/package.json`                    |
 
 Next, change your directory to the root directory of the project and run the following:
 ```bash
