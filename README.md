@@ -18,14 +18,14 @@ The application was created with the intention that this is a one-time implement
 
 However, the Figurebot was designed to be very reconfigurable, and has a settings file to accommodate many different situations. The Figurebot can generate an array of different figures with multiple plots just by tweaking the settings.  
 
-Here are some useful documents and links that I have used for development:
+Here are some useful documents and links that I have used for development:  
+
 |Name|Description|Link|
 |-|-|-|
-|G2cam|G2cam is a Python module for interfacing instruments to Subaru Telescope.|https://github.com/naojsoft/g2cam|
+|G2cam|G2cam is a Python module for interfacing instruments to Subaru Telescope.|https://github.com/naojsoft/g2cam/|
 |React|A JavaScript library for building user interfaces.|https://reactjs.org/|
 |Semantic-UI React|A React library for creating quick and stylish user interfaces. |https://react.semantic-ui.com/|
-|Miniconda|A portable environment for python. Can install python-unrelated packages like nodejs to the environment if need-be.|https://docs.conda.io/en/latest/miniconda.html|
-||||
+|Miniconda|A portable environment for python. Can install python-unrelated packages like nodejs to the environment if need-be.|https://docs.conda.io/en/latest/miniconda.html/|
 
 ## 1.2. Installation for Development
 

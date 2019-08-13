@@ -12,7 +12,7 @@ export CONDA_PYTHON_EXE=$CONDA_PREFIX
 export CONDA_DEFAULT_ENV=webdev
 
 export PATH=$CONDA_PREFIX/bin\:$PATH
-export SCRIPTPATH=/home/genzo/test/swa/fetch
+export SCRIPTPATH=/home/genzo/git/swa/fetch
 
 cd $SCRIPTPATH
 

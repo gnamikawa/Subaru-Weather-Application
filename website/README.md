@@ -90,15 +90,20 @@ The website was designed in a component-based way. Each part of the website is s
 For more information, read the react documentation.  
 https://reactjs.org/
 
+### Update homepage location `Git/swa/website/package.json`
+Make sure to update the website's homepage location when moving the location of the website itself. The website needs to be able to refer to itself. Change the following line to reflect the changes.
+
+```json
+"homepage": "http://shell/~genzo/Weather/",
+```
+
 ### Example addition of a figure or plot
 
 The addition of a graph to the website is done in two parts. First, an entry must be made for the collection and creation of the figure. This is done by editing `Settings.ini` for the Figurebot. Then, after the addition of the new plot, the created image must be displayed through the editing of the json file, `graphs.json`, that keeps track of the website's cards.
 
-#### `Settings.ini` - Settings file for the creation of graphs and collection of data
+#### `Settings.ini` - Settings file for the creation of graphs and collection of data `Git/swa/figurebot/Settings.ini`
 
-```bash
-# Git/swa/figurebot/Settings.ini
-
+```ini
    [ENVOY.SENSOR.F3]                     # Figure Identifier [ENVOY.SENSOR.<FIGURE#>]
     Title         = Atmospheric Pressure # Label for the title of the figure
     TitleFontsize = 16                   # Font size for the title of the figure
@@ -115,11 +120,8 @@ The addition of a graph to the website is done in two parts. First, an entry mus
         Granularity = 1440           # Maximum number of stored data points
 ```
 
-#### `graphs.json` - Card data for the website
-
+#### `graphs.json` - Card data for the website `Git/swa/website/public/data/graphs.json`
 ```json
-# Git/swa/website/public/data/graphs.json
-
 {
     "src": "./images/Atmospheric Pressure.png",                     # Filepath should match the generated image's filepath
     "alt": "Atmospheric Pressure plot of the last 24 hours",        # Alternative text in case of no image.
